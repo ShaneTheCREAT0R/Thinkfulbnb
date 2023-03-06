@@ -42,13 +42,6 @@ main img {
   flex-direction: column;
 }
 
-.item button,
-.item input,
-.item label,
-.item select {
-  display: flex;
-  width: 100%;
-}
 
 .item {
   flex: 1;
@@ -125,7 +118,6 @@ form button {
   font-size: 24px;
   padding: 15px;
   width: 100%;
-  justify-content: center;
 }
 
 .form-input {
@@ -175,10 +167,10 @@ footer p {
 /* ---Form--- */
   form {
     display: flex;
-    align-items: center;
     flex-direction: row;
     justify-content: space-between;
-    border: 2px solid #ff385c;
+    align-items: center;
+    flex-wrap: wrap;
     padding: 5px 5px 5px 5px;
   }
   
@@ -215,6 +207,15 @@ footer p {
   align-items: center;
   justify-content: center;
 }
+
+.item button,
+.item input,
+.item label,
+.item select {
+  display: flex;
+  width: 100%;
+}
+
 
 .item {
   flex: 1;
