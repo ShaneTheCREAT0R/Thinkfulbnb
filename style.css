@@ -61,8 +61,9 @@ header {
 }
 
 .logo {
+  display: flex;
   font-family: "Pangolin", cursive;
-  font-size: 72px;
+  font-size: 64px;
   color: #fff;
 }
 
