@@ -42,6 +42,14 @@ main img {
   flex-direction: column;
 }
 
+.item button,
+.item input,
+.item label,
+.item select {
+  display: flex;
+  width: 100%;
+}
+
 .item {
   flex: 1;
   margin: 10px;
@@ -117,6 +125,7 @@ form button {
   font-size: 24px;
   padding: 15px;
   width: 100%;
+  justify-content: center;
 }
 
 .form-input {
@@ -203,11 +212,13 @@ footer p {
 .group {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 .item {
   flex: 1;
-  margin: 10px;
+  margin: 15px;
 }
 
 .item-double {
@@ -215,8 +226,9 @@ footer p {
 }
 
 main img {
-height: 300px;
-width: auto;
+  width: 100%;
+  height: auto;
 }
+
 
 }
